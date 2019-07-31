@@ -1,0 +1,255 @@
+ *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+/*.element {
+    animation: pulse 5s infinite;
+}
+@keyframes pulse {
+    0% {
+        background-color: #001F3F;
+    }
+ 100% {
+     background-color: #FF4136;
+ }
+}
+@keyframes bounceout {
+    0% {
+        transform: scale(0.1);
+        opacity: 0%;
+    }
+        60% {
+        transform: scale(1.2);
+        opacity: 1;
+        }
+100% {
+    transform: scale(1);
+  }
+}
+div {
+    animation-duration: 2s ;
+    animation-name: bounceout;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}*/
+h1{
+    font: Bold 14px Tahoma;
+    text-align: center;
+
+}
+#big_wrapper{
+    border:1px solid black;
+    /*width:1000px; */
+    /*margin: 20px auto;*/
+    background-image: repeating-radial-gradient(circle, #800080, #808080);
+    border-radius: 8px;
+}
+ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    margin-top: 10px;
+}
+ul li{
+    float:right;
+    width:100px;
+    height:30px;
+    background-color: black;
+    opacity: .8;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+ /*li {
+    text-decoration: crimson;
+    list-style: none;
+    float:right;
+    padding:5px;
+    border:1px solid black;
+    background-image: radial-gradient(circle,white,pink );
+    word-spacing: 20%;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}*/
+.image_wrapper{
+    margin-top: 100px;
+    position:relative;
+    text-align:center;
+    color:#ffffff;
+    font: bold 30px Tahoma;
+    border-radius: 20px;
+}
+.best {
+    text-align: center;
+    font-family: sans-serif 16px;
+    background-color: #808080;
+    margin:10px;
+}
+.centered{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo{
+    line-height: 100px;
+    margin-left:10px;
+    margin-right: 10px;
+    padding-top: 25px;
+    word-spacing: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    opacity: .8; 
+}
+img{
+    border:2px solid black;
+}
+footer{
+    background-color: black;
+    opacity: .8;
+    color:white;
+    padding:35px;
+    text-align: center;
+}
+.pig{
+    line-height: 20px;
+    font: 18px bold Tahoma;
+    text-align: center;
+}
+h1{
+    font:20px Tahoma bold;
+}
+/*.logo{
+    scroll-snap-align: x mandatory;
+    overflow: scroll;
+    display: flex;
+    background-color: #ffffff;
+    margin:5px;
+}
+.logo img{
+    scroll-snap-align: center;
+}
+page2.html{
+    font: bold 20px Seriff;
+    text-align: center;
+}*/
+.header {
+    /*margin:6px;*/
+    padding:50px;
+    display:flex;
+    justify-content: center;
+    background-color: #db7093;
+    color: #fff;
+}
+/*.box {
+    margin: 10%;
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 4%;
+
+} 
+.inputbox {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    padding: 10px;
+    width:20px;
+    flex-direction: row;
+    color: blue;
+    border: 1px solid #fff;
+}
+form .low{
+    display:flex;
+    justify-content:flex-end;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+}*/
+.form_container{
+    display:flex;
+    justify-content: flex-end;
+}
+.form_elements{
+    display: flex;
+    justify-content: flex-end;
+    background-color:#dda0dd;
+    margin-right: 10px;
+    width: 35%;
+    margin-top: 3%;
+    padding: 5px;
+    border-radius: 20px;
+}
+.form_elements input{
+    width:100%;
+    padding:15px;
+    border-radius: 10px;
+}
+.myform{
+    padding:50px;
+    width:500%;
+   
+}
+button{
+    width:30%;
+    padding:5px;
+    border-radius: 10px;
+    color:red;
+}
+ label{
+    font-weight: 16px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;   
+    background-color: #bc8f8f;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+.form_elements label{
+    color:red;
+} 
+.form_elements label message{
+    padding:5px;
+}
+.lol{
+    padding:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
